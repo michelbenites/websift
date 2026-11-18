@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Email preview</h1>
+{% autoescape false %}
+<div class="email-body">{{ email_body }}</div>
+{% endautoescape %}
+{% endblock %}
